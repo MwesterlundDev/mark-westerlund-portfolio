@@ -1,0 +1,144 @@
+* {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    /* font-family : Arial; */
+    background-color: rgb(22, 22, 22);
+    color: rgb(220, 220, 220);
+    height: 100%;
+    width: 100%;
+    /* font-size: 10px; */
+    min-width: 1000px;
+    min-height: 750px;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+/* h1 {
+    font-family: 'Noto Sans HK',
+        sans-serif;
+}
+
+h1 p {
+    font-family: 'Montserrat',
+        sans-serif;
+} */
+
+.navbar {
+    background: transparent;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #F97300;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #333333;
+    color: #F97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important
+}
+
+.bg-primary {
+    background-color: #007bff !important
+}
+
+/* header style */
+.header {
+    background-image: url('../images/forest-road.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(244, 244, 244, 0.79); */
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    font-family: 'Libre Franklin',
+        cursive;
+    color: #000;
+    background: #F97300;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
+
+.description p {
+    color: #AAA;
+    font-size: .5em;
+    width: 100%;
+    line-height: 1.5;
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 100;
+    text-transform: none;
+}
+
+.description button {
+    border: 1px solid #F97300;
+    background: #F97300;
+    color: #fff;
+}
+
+.section-header {
+    font-family: 'Libre Franklin',
+        cursive;
+    color: #000;
+    background: #F97300;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 36px;
+}
+
+section p {
+    color: #AAA;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.5;
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 100;
+    text-transform: none;
+}
