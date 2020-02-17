@@ -9,3 +9,11 @@
 #logo-image {
     height: 70px;
 }
+
+.fill-height {
+    height: 100%;
+}
+
+.project-card-image {
+    height: 200px;
+}
